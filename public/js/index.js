@@ -24,8 +24,8 @@ weatherform.addEventListener('submit',(event)=>{
                    // console.log(data)
                    
                    msg1.textContent = "The temperatur is currently "+data.current.temperature
-                   msg2.textContent = "Temperature Location is in "+data.location.region
-                     msg3.textContent = "Name of the place "+data.location.name+", "+data.location.country
+                   msg2.textContent = "Temperature Location is in "+data.location.region+", "+data.location.country
+                     msg3.textContent = "Name of the place "+data.location.name
                 }
             })
         })
