@@ -25,7 +25,7 @@ weatherform.addEventListener('submit',(event)=>{
                    
                    msg1.textContent = "The temperatur is currently "+data.current.temperature
                    msg2.textContent = "temperature Location is in "+data.location.region
-                     msg3.textContent = "Name of the place "+data.location.name
+                     msg3.textContent = "Name of the place "+data.location.name+", "+data.location.country
                 }
             })
         })
