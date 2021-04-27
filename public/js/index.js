@@ -12,6 +12,7 @@ weatherform.addEventListener('submit',(event)=>{
     const location = search.value
     msg1.textContent = 'Loading...'
     msg2.textContent = " "
+    msg3.textContent = " "
 
     if(!location){
         msg1.textContent = "Please enter location!"
